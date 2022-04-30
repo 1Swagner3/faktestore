@@ -1,0 +1,40 @@
+
+.detail-super-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 120px;
+    padding: 0px 50px;
+}
+
+.detail-container{
+    display: flex;
+    align-items: center;
+    gap: 130px;
+}
+
+.details {
+    display: flex;
+    flex-flow: column;
+    box-shadow: 2px 2px 5px grey;
+    padding: 10px 20px;
+}
+
+.details-foot{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.details-foot p{
+    font-weight: bold;
+}
+
+#detail-image{
+    width: auto;
+    max-width: 200px;
+    height: fit-content;
+    max-height: 400px;
+   
+}

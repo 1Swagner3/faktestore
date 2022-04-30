@@ -1,0 +1,29 @@
+.cartDetailContainer{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 0px 50px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.cartHead{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.cartFoot{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+#removeButton{
+    padding: 10px;
+    border-radius: 100px;
+}
+
+#removeButton:hover{
+    background-color: rgb(255, 51, 51);
+    box-shadow: 2px 2px 2px grey;
+}
